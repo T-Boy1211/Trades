@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon1.jpeg" type="image/x-icon">
+  </head>
+  <body>
+    <nav class="navbar bg-primary">
+      <a class="text-decoration-none mx-auto fs-3 text-light" onclick="trades('home')" href="#">HOME</a>
+    </nav>
+    <h1 class="text-center text-primary mt-5">Features</h1>
+    <p class="text-center">Futures trading has an exciting story, boss! It’s one of the oldest forms of financial trading, and here's a breakdown of how it works and some fascinating
+    examples:</p>
+    <div class="container mt-5 p-5">
+      <h3 class="text-warning">What Are Futures?</h3>
+      <p>Futures are financial contracts where two parties agree to buy or sell an asset at a specific price on a future date. They’re used to hedge against price changes or to speculate for profit.</p>
+      <ul>
+        <li>Example:
+          <p>Imagine a farmer growing wheat. He worries the price might drop when his crop is ready. A bread company, on the other hand, fears prices might rise. They enter a futures contract:</p>
+          <ul>
+            <li>Farmer locks in a price to sell his wheat.</li>
+            <li>Bread company locks in a price to buy it.</li>
+            <p>Both sides protect themselves from price volatility.</p>
+          </ul>
+        </li>
+      </ul>
+      <h3 class="text-warning">How Futures Work</h3>
+      <ol>
+        <li>Underlying Assets: Futures contracts can be based on commodities (like oil or gold), financial instruments (like stock indexes), or even cryptocurrencies.</li>
+        <li>Leverage: You can trade futures with a small upfront investment (called margin), controlling larger positions—but this amplifies both gains and losses.</li>
+        <li>Settlement: At the contract’s end, the buyer either receives the actual asset (physical delivery) or the cash difference in value (cash settlement).</li>
+      </ol>
+      <h3 class="text-warning">History of Futures</h3>
+      <ol>
+        <li>Ancient Roots
+          <ul>
+            <li>Futures trading began in Japan in the 1600s with rice farmers. Farmers and merchants used rice futures to stabilize prices.</li>
+          </ul>
+        </li>
+        <li>The Chicago Board of Trade (CBOT)
+          <ul>
+            <li>Established in 1848, CBOT became the first modern futures exchange, starting with grain contracts.</li>
+          </ul>
+        </li>
+        <li>Modern Evolution
+          <ul>
+            <li>Futures now cover a wide range of assets, from crude oil to Bitcoin.</li>
+          </ul>
+        </li>
+      </ol>
+      <h3 class="text-warning">Types of Futures Contracts</h3>
+      <ol>
+        <li>Commodities Futures
+          <ul>
+            <li>Based on physical goods like gold, oil, coffee, or wheat.</li>
+            <li>Example: Gold futures let you speculate on the future price of gold.</li>
+          </ul>
+        </li>
+        <li>Financial Futures
+          <ul>
+            <li>Based on financial assets like stock indexes (e.g., S&P 500 futures) or currencies.</li>
+          </ul>
+        </li>
+        <li>Cryptocurrency Futures
+          <ul>
+            <li>Newer contracts based on digital currencies like Bitcoin or Ethereum.</li>
+          </ul>
+        </li>
+      </ol>
+      <h3 class="text-warning">Why People Trade Futures</h3>
+      <ol>
+        <li>Hedging
+          <ul>
+            <li>Protect against price changes.</li>
+            <li>Example: Airlines use fuel futures to lock in stable fuel costs.</li>
+          </ul>
+        </li>
+        <li>Speculation
+          <ul>
+            <li>Traders bet on price movements to make profits.</li>
+            <li>Example: A trader buys oil futures expecting oil prices to rise.</li>
+          </ul>
+        </li>
+        <li>Leverage
+          <ul>
+            <li>Futures allow traders to control large amounts of an asset with smaller investments.</li>
+          </ul>
+        </li>
+      </ol>
+      <h3 class="text-warning">Famous Futures Stories</h3>
+      <ol>
+        <li>The Hunt Brothers and Silver (1970s)
+          <ul>
+            <li>Two billionaire brothers tried to corner the silver market, driving its price to record highs. But when regulators intervened, the price crashed, leading to massive losses.</li>
+          </ul>
+        </li>
+        <li>The Oil Futures Crash (2020)
+          <ul>
+            <li>In April 2020, crude oil futures went negative for the first time in history, meaning sellers had to pay buyers to take oil off their hands!</li>
+          </ul>
+        </li>
+        <li>Bitcoin Futures Explosion
+          <ul>
+            <li>Bitcoin futures introduced on major exchanges in 2017 fueled cryptocurrency’s mainstream adoption. Prices skyrocketed before a massive correction.</li>
+          </ul>
+        </li>
+      </ol>
+      <h3 class="text-warning">Risks of Futures Trading</h3>
+      <ol>
+        <li>High Leverage: Amplifies potential losses.
+          <ul>
+            <li>Example: If you’re trading oil futures with a 10% margin and prices move against you, losses can exceed your initial investment.</li>
+          </ul>
+        </li>
+        <li>Market Volatility: Prices can change rapidly due to unexpected events.
+          <ul>
+            <li>Example: Natural disasters can disrupt commodities like wheat or oil.</li>
+          </ul>
+        </li>
+        <li>Complexity: Futures require understanding the underlying asset and market conditions.</li>
+      </ol>
+      <h3 class="text-warning">How to Start Futures Trading</h3>
+      <ol>
+        <li>Learn the Basics: Understand the market, assets, and contract terms.</li>
+        <li>Choose a Broker: Platforms like CME Group, E*TRADE, or Binance offer futures trading.</li>
+        <li>Practice with Simulations: Try demo accounts to avoid risking real money.</li>
+        <li>Risk Management: Set stop-loss orders and avoid over-leveraging.</li>
+      </ol>
+    </div>
+
+    <script>
+
+      function trades(type) {
+        switch (type) {
+          default:
+            window.location.href = 'index.html';
+        }
+      }
+    </script>
+  </body>
+</html>
